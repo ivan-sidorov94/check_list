@@ -24,7 +24,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))  # [2]
 async def cmd_start(message: Message):
     await message.answer(
-        "https://github.com/",
+        "https://t.me/iv?url=https%3A%2F%2Faaio.io%2Fpages%2Fagreement&rhash=2c4bbd3902becc",
         reply_markup=start_kb(),
         disable_web_page_preview=False
     )
